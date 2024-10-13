@@ -1,0 +1,19 @@
+{
+  "login": [],
+  "register": [
+    {
+      "id": "c4ef",
+      "name": "Naruto",
+      "email": "naruto@gmail.com",
+      "password": "12345678",
+      "confirm_password": "12345678"
+    },
+    {
+      "id": "b0bb",
+      "name": "John Wick",
+      "email": "johnwick@gmail.com",
+      "password": "87654321",
+      "confirm_password": "87654321"
+    }
+  ]
+}
