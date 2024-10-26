@@ -7,9 +7,7 @@ import jsonServer from "vite-plugin-simple-json-server";
 export default defineConfig({
   plugins: [
     react(),
-    jsonServer({
-      delay: 8000,
-    }),
+    jsonServer(),
   ],
   resolve: {
     alias: {

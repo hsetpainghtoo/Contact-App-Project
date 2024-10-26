@@ -1,5 +1,101 @@
 {
-  "login": [],
+  "login": [
+    {
+      "id": "746d",
+      "email": "johnwick@gmail.com",
+      "password": "johnwick1234"
+    },
+    {
+      "id": "7a2e",
+      "email": "peter@gmail.com",
+      "password": "1234567890"
+    },
+    {
+      "id": "9e0d",
+      "email": "hsetpainghtoo@gmail.com",
+      "password": "123456789"
+    },
+    {
+      "id": "5912",
+      "email": "naruto@gmail.com",
+      "password": "123456789"
+    },
+    {
+      "id": "18f2",
+      "email": "johnwick@gmail.com",
+      "password": "1234567890-"
+    },
+    {
+      "id": "d6de",
+      "email": "peter@gmail.com",
+      "password": "12345678"
+    },
+    {
+      "id": "16c6",
+      "email": "hsetpaing@gmail.com",
+      "password": "123456789"
+    },
+    {
+      "id": "025c",
+      "email": "denial@gmail.com",
+      "password": "1234567234567"
+    },
+    {
+      "id": "a9bf",
+      "email": "johnwick@gmail.com",
+      "password": "12345678"
+    },
+    {
+      "id": "0ff2",
+      "email": "naruto@gmail.com",
+      "password": "123456789"
+    },
+    {
+      "id": "cdf9",
+      "email": "denial@gmail.com",
+      "password": "123456789"
+    },
+    {
+      "id": "f2e5",
+      "email": "peter@gmail.com",
+      "password": "12345678"
+    },
+    {
+      "id": "f349",
+      "email": "johnwick@gmail.com",
+      "password": "12345678"
+    },
+    {
+      "id": "a14f",
+      "email": "johnwick@gmail.com",
+      "password": "12345678"
+    },
+    {
+      "id": "ffc8",
+      "email": "naruto@gmail.com",
+      "password": "1234567234567"
+    },
+    {
+      "id": "0289",
+      "email": "peter@gmail.com",
+      "password": "98765432"
+    },
+    {
+      "id": "9059",
+      "email": "kelvin@gmail.com",
+      "password": "987654321"
+    },
+    {
+      "id": "c4d8",
+      "email": "naruto@gmail.com",
+      "password": "123456789"
+    },
+    {
+      "id": "6b09",
+      "email": "denial@gmail.com",
+      "password": "12345678"
+    }
+  ],
   "register": [
     {
       "id": "c4ef",
@@ -14,6 +110,190 @@
       "email": "johnwick@gmail.com",
       "password": "87654321",
       "confirm_password": "87654321"
+    },
+    {
+      "id": "b20d",
+      "name": "Naruto Uzumaki",
+      "email": "naruto@gmail.com",
+      "password": "naruto12345",
+      "confirm_password": "naruto12345"
+    },
+    {
+      "id": "d56c",
+      "name": "Hset Paing Htoo",
+      "email": "hsetpainghtoo@gmail.com",
+      "password": "hninenjoyer",
+      "confirm_password": "hninenjoyer"
+    },
+    {
+      "id": "43cf",
+      "name": "Peter",
+      "email": "peter@gmail.com",
+      "password": "12345678",
+      "confirm_password": "12345678"
+    },
+    {
+      "id": "24ab",
+      "name": "Peter",
+      "email": "peter@gmail.com",
+      "password": "12345678",
+      "confirm_password": "12345678"
+    },
+    {
+      "id": "a35b",
+      "name": "Harry Potter",
+      "email": "harrypotter@gmail.com",
+      "password": "harrypotter",
+      "confirm_password": "harrypotter"
+    },
+    {
+      "id": "748d",
+      "name": "Harry Potter",
+      "email": "harrypotter@gmail.com",
+      "password": "harrypotter",
+      "confirm_password": "harrypotter"
+    },
+    {
+      "id": "54a2",
+      "name": "Daniel",
+      "email": "daniel@gmail.com",
+      "password": "daniel1234",
+      "confirm_password": "daniel1234"
+    },
+    {
+      "id": "e5bf",
+      "name": "Kyaw Gyi",
+      "email": "kyawgyi@gmail.com",
+      "password": "12345678",
+      "confirm_password": "12345678"
+    },
+    {
+      "id": "de1a",
+      "name": "Kyaw Gyi",
+      "email": "kyawgyi@gmail.com",
+      "password": "12345678",
+      "confirm_password": "12345678"
+    },
+    {
+      "id": "a435",
+      "name": "Kyaw Gyi",
+      "email": "kyawgyi@gmail.com",
+      "password": "12345678",
+      "confirm_password": "12345678"
+    },
+    {
+      "id": "2914",
+      "name": "Hset Paing Htoo",
+      "email": "hsetpainghtoo@gmail.com",
+      "password": "12345678",
+      "confirm_password": "12345678"
+    },
+    {
+      "id": "77cb",
+      "name": "Naruto Uzumaki",
+      "email": "naruto@gmail.com",
+      "password": "12345678",
+      "confirm_password": "12345678"
+    },
+    {
+      "id": "cc52",
+      "name": "Naruto Uzumaki",
+      "email": "naruto@gmail.com",
+      "password": "12345678",
+      "confirm_password": "12345678"
+    },
+    {
+      "id": "ab7b",
+      "name": "Hset Paing Htoo",
+      "email": "naruto@gmail.com",
+      "password": "12345678",
+      "confirm_password": "12345678"
+    },
+    {
+      "id": "cda7",
+      "name": "Hset Paing Htoo",
+      "email": "naruto@gmail.com",
+      "password": "12345678",
+      "confirm_password": "12345678"
+    },
+    {
+      "id": "34d3",
+      "name": "Hset Paing Htoo",
+      "email": "hsetpainghtoo@gmail.com",
+      "password": "12345678",
+      "confirm_password": "12345678"
+    },
+    {
+      "id": "eb94",
+      "name": "Hset Paing Htoo",
+      "email": "hsetpainghtoo@gmail.com",
+      "password": "12345678",
+      "confirm_password": "12345678"
+    },
+    {
+      "id": "9d2a",
+      "name": "Hset Paing Htoo",
+      "email": "hsetpainghtoo@gmail.com",
+      "password": "12345678",
+      "confirm_password": "12345678"
+    },
+    {
+      "id": "df7a",
+      "name": "Naruto",
+      "email": "naruto@gmail.com",
+      "password": "12345678",
+      "confirm_password": "12345678"
+    },
+    {
+      "id": "3a24",
+      "name": "John Wick",
+      "email": "johnwick@gmail.com",
+      "password": "987654321",
+      "confirm_password": "987654321"
+    },
+    {
+      "id": "52b1",
+      "name": "Hset Paing Htoo",
+      "email": "hsetpainghtoo@gmail.com",
+      "password": "12345678",
+      "confirm_password": "12345678"
+    }
+  ],
+  "user-profile": [
+    {
+      "id": "59cd",
+      "email": "denial@gmail.com",
+      "password": "123456789"
+    }
+  ],
+  "contact": [
+    {
+      "id": "78b7",
+      "name": "Peter Parker",
+      "email": "spider@gmail.com",
+      "phone": "0929384877",
+      "address": "New York"
+    },
+    {
+      "id": "07ec",
+      "name": "John Wick",
+      "email": "johnwick@gmail.com",
+      "phone": "0987654321",
+      "address": "New York"
+    },
+    {
+      "id": "6be9",
+      "name": "Hset Paing Htoo",
+      "email": "hsetpainghtoo@gmail.com",
+      "phone": "09781999018",
+      "address": "Mawlamyine"
+    },
+    {
+      "id": "6a8a",
+      "name": "Harry Potter",
+      "email": "harrypotter@gmail.com",
+      "phone": "0912345678",
+      "address": "Hogwarts"
     }
   ]
 }
