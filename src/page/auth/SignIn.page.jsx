@@ -17,6 +17,7 @@ import { Loader2 } from "lucide-react";
 import AuthGuard from "../../components/guard/Auth.Guard";
 import { useNavigate } from "react-router-dom";
 import { useEffect } from "react";
+import { useLocation } from "react-router-dom";
 
 const SignInPage = () => {
   const [fun, data] = useSignInMutation();
@@ -47,6 +48,21 @@ const SignInPage = () => {
       nav("/home");
     }
   },[])
+
+  
+  const location = useLocation();
+  // console.log(location.pathname)
+  useEffect(() => {
+    if (location.pathname === "/home") {
+      const item = localStorage.getItem("token_email");
+      // console.log(item);
+      if (item) {
+        nav("/home");
+      } else {
+        nav("/");
+      }
+    }
+  }, [location, nav]);
 
   const handleSubmit = async (value,action) => {
     await fun(value);

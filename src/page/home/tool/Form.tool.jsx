@@ -5,21 +5,23 @@ import { Input } from "../../../components/ui/input";
 import { ErrorMessage, Form, Formik } from "formik";
 import { Button } from "../../../components/ui/button";
 import { Loader2 } from "lucide-react";
-import { useCreateMutation } from "../../../store/service/endpoints/contact.endpoing";
+import { useCreateMutation, useUpdateMutation } from "../../../store/service/endpoints/contact.endpoint";
 import { useEffect } from "react";
 import { SheetClose } from "../../../components/ui/sheet";
 import { useRef } from "react";
 
-const FormTool = () => {
+const FormTool = ({editData, handleClose}) => {
+  console.log(editData)
   const CloseRef = useRef();
   const initialValues = {
-    name: "",
-    email: "",
-    phone: "",
-    address: "",
+    name: editData?.data?.name || "",
+    email: editData?.data?.email || "",
+    phone: editData?.data?.phone || "",
+    address: editData?.data?.address || "",
   };
 
   const [fun, { data, isError, isLoading, isSuccess }] = useCreateMutation();
+  const [updateFun, apiData] = useUpdateMutation();
 
   const validationSchema = yup.object({
     name: yup
@@ -42,7 +44,11 @@ const FormTool = () => {
   });
 
   const handleSubmit = async (value, action) => {
-    await fun(value);
+    if(editData.edit){
+      await updateFun({id: editData.data?.id ,...value});
+    }else{
+      await fun(value);
+    }
     action.reset();
     CloseRef.current.click();
   };
@@ -148,6 +154,7 @@ const FormTool = () => {
               <div className="flex gap-3 pb-8">
                 <SheetClose className="w-full mt-3">
                   <Button
+                    onClick={handleClose}
                     disabled={isSubmitting}
                     type="button"
                     className="w-full bg-white hover:bg-white text-blue-500 border-2 border-blue-500 hover:shadow-md active:scale-95 mt-5"

@@ -5,8 +5,8 @@ import { useNavigate } from 'react-router-dom';
 import Loading from '../loading/Loading';
 
 const AuthGuard = ({check, tokenEmail, children}) => {
-  console.log(check);
-  console.log(tokenEmail);
+  // console.log(check);
+  // console.log(tokenEmail);
   
   useEffect(() => {
     if(check){
@@ -18,7 +18,7 @@ const AuthGuard = ({check, tokenEmail, children}) => {
   // console.log(check);
   // console.log(tokenEmail);
   // const {data, isError, isLoading} = useProfileQuery();
-  // console.log("Auth Guard",data);
+  // console.log("Auth Guard",data,isError);
   // useEffect(() => {
   //   if(check){
   //     localStorage.setItem("token_email",JSON.stringify(tokenEmail))
